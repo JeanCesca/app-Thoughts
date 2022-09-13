@@ -16,6 +16,13 @@ class SignInViewController: UIViewController {
         view.backgroundColor = .systemBackground
         navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+            if IAPManager.shared.isPremium() {
+                let nav = UINavigationController(rootViewController: PayWallViewController())
+                self.present(nav, animated: true, completion: nil)
+            }
+        }
     }
 
 }

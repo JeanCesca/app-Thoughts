@@ -10,6 +10,9 @@
 		0F097E4328CFBBD7000039F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F097E4228CFBBD7000039F3 /* GoogleService-Info.plist */; };
 		0F097E4528CFCE1F000039F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F097E4428CFCE1F000039F3 /* User.swift */; };
 		0F097E4728CFCE33000039F3 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F097E4628CFCE33000039F3 /* BlogPost.swift */; };
+		0F097E4928D0B032000039F3 /* PayWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F097E4828D0B032000039F3 /* PayWallViewController.swift */; };
+		0F80622E28D0BADD003EE811 /* PayWallHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80622D28D0BADD003EE811 /* PayWallHeaderView.swift */; };
+		0F80623028D0C59C003EE811 /* PayWallDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80622F28D0C59C003EE811 /* PayWallDescriptionView.swift */; };
 		0FB2CAE828CF90440025DF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2CAE728CF90440025DF88 /* AppDelegate.swift */; };
 		0FB2CAEA28CF90440025DF88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2CAE928CF90440025DF88 /* SceneDelegate.swift */; };
 		0FB2CAEC28CF90440025DF88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2CAEB28CF90440025DF88 /* HomeViewController.swift */; };
@@ -31,6 +34,9 @@
 		0F097E4228CFBBD7000039F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F097E4428CFCE1F000039F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0F097E4628CFCE33000039F3 /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
+		0F097E4828D0B032000039F3 /* PayWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallViewController.swift; sourceTree = "<group>"; };
+		0F80622D28D0BADD003EE811 /* PayWallHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallHeaderView.swift; sourceTree = "<group>"; };
+		0F80622F28D0C59C003EE811 /* PayWallDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallDescriptionView.swift; sourceTree = "<group>"; };
 		0FB2CAE428CF90440025DF88 /* app-Thoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-Thoughts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB2CAE728CF90440025DF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB2CAE928CF90440025DF88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,8 @@
 		0FE7201828CFAB77003F31C0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0F80622D28D0BADD003EE811 /* PayWallHeaderView.swift */,
+				0F80622F28D0C59C003EE811 /* PayWallDescriptionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 		0FE7203128CFAEF9003F31C0 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0F097E4828D0B032000039F3 /* PayWallViewController.swift */,
 				0FB2CAEB28CF90440025DF88 /* HomeViewController.swift */,
 				0FE7201C28CFAC00003F31C0 /* ProfileViewController.swift */,
 				0FE7201E28CFAC18003F31C0 /* MainTabViewController.swift */,
@@ -305,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F80622E28D0BADD003EE811 /* PayWallHeaderView.swift in Sources */,
 				0F097E4528CFCE1F000039F3 /* User.swift in Sources */,
 				0FE7202428CFAC6B003F31C0 /* SignInViewController.swift in Sources */,
 				0FE7202E28CFACD1003F31C0 /* AuthManager.swift in Sources */,
@@ -314,11 +324,13 @@
 				0FB2CAEC28CF90440025DF88 /* HomeViewController.swift in Sources */,
 				0FB2CAE828CF90440025DF88 /* AppDelegate.swift in Sources */,
 				0FE7202828CFAC8F003F31C0 /* CreateNewPostViewController.swift in Sources */,
+				0F097E4928D0B032000039F3 /* PayWallViewController.swift in Sources */,
 				0FE7202A28CFACBB003F31C0 /* IAPManager.swift in Sources */,
 				0FE7201D28CFAC00003F31C0 /* ProfileViewController.swift in Sources */,
 				0F097E4728CFCE33000039F3 /* BlogPost.swift in Sources */,
 				0FB2CAEA28CF90440025DF88 /* SceneDelegate.swift in Sources */,
 				0FE7202628CFAC7F003F31C0 /* ViewPostViewController.swift in Sources */,
+				0F80623028D0C59C003EE811 /* PayWallDescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
