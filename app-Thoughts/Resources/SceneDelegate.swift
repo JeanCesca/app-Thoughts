@@ -19,7 +19,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         
         //MainTabViewController apenas aparecerá se o usuário estiver logado (Sign In)
-        
         if AuthManager.shared.isSignIn {
             let mainTab = MainTabViewController()
             let nav = UINavigationController(rootViewController: mainTab)

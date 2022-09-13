@@ -13,6 +13,8 @@
 		0F097E4928D0B032000039F3 /* PayWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F097E4828D0B032000039F3 /* PayWallViewController.swift */; };
 		0F80622E28D0BADD003EE811 /* PayWallHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80622D28D0BADD003EE811 /* PayWallHeaderView.swift */; };
 		0F80623028D0C59C003EE811 /* PayWallDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80622F28D0C59C003EE811 /* PayWallDescriptionView.swift */; };
+		0F80623328D0D631003EE811 /* SignInHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80623228D0D631003EE811 /* SignInHeaderView.swift */; };
+		0F80623628D0E515003EE811 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80623528D0E515003EE811 /* SignUpViewController.swift */; };
 		0FB2CAE828CF90440025DF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2CAE728CF90440025DF88 /* AppDelegate.swift */; };
 		0FB2CAEA28CF90440025DF88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2CAE928CF90440025DF88 /* SceneDelegate.swift */; };
 		0FB2CAEC28CF90440025DF88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB2CAEB28CF90440025DF88 /* HomeViewController.swift */; };
@@ -20,7 +22,6 @@
 		0FB2CAF428CF90450025DF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB2CAF228CF90450025DF88 /* LaunchScreen.storyboard */; };
 		0FE7201D28CFAC00003F31C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7201C28CFAC00003F31C0 /* ProfileViewController.swift */; };
 		0FE7201F28CFAC18003F31C0 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7201E28CFAC18003F31C0 /* MainTabViewController.swift */; };
-		0FE7202228CFAC4B003F31C0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7202128CFAC4B003F31C0 /* SignUpViewController.swift */; };
 		0FE7202428CFAC6B003F31C0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7202328CFAC6B003F31C0 /* SignInViewController.swift */; };
 		0FE7202628CFAC7F003F31C0 /* ViewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7202528CFAC7F003F31C0 /* ViewPostViewController.swift */; };
 		0FE7202828CFAC8F003F31C0 /* CreateNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE7202728CFAC8F003F31C0 /* CreateNewPostViewController.swift */; };
@@ -37,6 +38,8 @@
 		0F097E4828D0B032000039F3 /* PayWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallViewController.swift; sourceTree = "<group>"; };
 		0F80622D28D0BADD003EE811 /* PayWallHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallHeaderView.swift; sourceTree = "<group>"; };
 		0F80622F28D0C59C003EE811 /* PayWallDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallDescriptionView.swift; sourceTree = "<group>"; };
+		0F80623228D0D631003EE811 /* SignInHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHeaderView.swift; sourceTree = "<group>"; };
+		0F80623528D0E515003EE811 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0FB2CAE428CF90440025DF88 /* app-Thoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-Thoughts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB2CAE728CF90440025DF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB2CAE928CF90440025DF88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +49,6 @@
 		0FB2CAF528CF90450025DF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FE7201C28CFAC00003F31C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0FE7201E28CFAC18003F31C0 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
-		0FE7202128CFAC4B003F31C0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0FE7202328CFAC6B003F31C0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0FE7202528CFAC7F003F31C0 /* ViewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPostViewController.swift; sourceTree = "<group>"; };
 		0FE7202728CFAC8F003F31C0 /* CreateNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F80623128D0D60B003EE811 /* SignInViews */ = {
+			isa = PBXGroup;
+			children = (
+				0F80623228D0D631003EE811 /* SignInHeaderView.swift */,
+			);
+			path = SignInViews;
+			sourceTree = "<group>";
+		};
 		0FB2CADB28CF90440025DF88 = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +106,6 @@
 				0FE7201728CFAB6B003F31C0 /* Models */,
 				0FE7201B28CFAB85003F31C0 /* Managers */,
 				0FE7201928CFAB7B003F31C0 /* Controllers */,
-				0FE7201828CFAB77003F31C0 /* Views */,
 				0FB2CAF528CF90450025DF88 /* Info.plist */,
 				0F097E4228CFBBD7000039F3 /* GoogleService-Info.plist */,
 			);
@@ -112,13 +121,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		0FE7201828CFAB77003F31C0 /* Views */ = {
+		0FE7201828CFAB77003F31C0 /* PayWallViews */ = {
 			isa = PBXGroup;
 			children = (
-				0F80622D28D0BADD003EE811 /* PayWallHeaderView.swift */,
 				0F80622F28D0C59C003EE811 /* PayWallDescriptionView.swift */,
+				0F80622D28D0BADD003EE811 /* PayWallHeaderView.swift */,
 			);
-			path = Views;
+			path = PayWallViews;
 			sourceTree = "<group>";
 		};
 		0FE7201928CFAB7B003F31C0 /* Controllers */ = {
@@ -157,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				0F097E4828D0B032000039F3 /* PayWallViewController.swift */,
+				0FE7201828CFAB77003F31C0 /* PayWallViews */,
 				0FB2CAEB28CF90440025DF88 /* HomeViewController.swift */,
 				0FE7201C28CFAC00003F31C0 /* ProfileViewController.swift */,
 				0FE7201E28CFAC18003F31C0 /* MainTabViewController.swift */,
@@ -167,8 +177,9 @@
 		0FE7203228CFAF00003F31C0 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				0F80623528D0E515003EE811 /* SignUpViewController.swift */,
 				0FE7202328CFAC6B003F31C0 /* SignInViewController.swift */,
-				0FE7202128CFAC4B003F31C0 /* SignUpViewController.swift */,
+				0F80623128D0D60B003EE811 /* SignInViews */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -319,14 +330,15 @@
 				0FE7202428CFAC6B003F31C0 /* SignInViewController.swift in Sources */,
 				0FE7202E28CFACD1003F31C0 /* AuthManager.swift in Sources */,
 				0FE7202C28CFACC8003F31C0 /* DatabaseManager.swift in Sources */,
-				0FE7202228CFAC4B003F31C0 /* SignUpViewController.swift in Sources */,
 				0FE7201F28CFAC18003F31C0 /* MainTabViewController.swift in Sources */,
+				0F80623628D0E515003EE811 /* SignUpViewController.swift in Sources */,
 				0FB2CAEC28CF90440025DF88 /* HomeViewController.swift in Sources */,
 				0FB2CAE828CF90440025DF88 /* AppDelegate.swift in Sources */,
 				0FE7202828CFAC8F003F31C0 /* CreateNewPostViewController.swift in Sources */,
 				0F097E4928D0B032000039F3 /* PayWallViewController.swift in Sources */,
 				0FE7202A28CFACBB003F31C0 /* IAPManager.swift in Sources */,
 				0FE7201D28CFAC00003F31C0 /* ProfileViewController.swift in Sources */,
+				0F80623328D0D631003EE811 /* SignInHeaderView.swift in Sources */,
 				0F097E4728CFCE33000039F3 /* BlogPost.swift in Sources */,
 				0FB2CAEA28CF90440025DF88 /* SceneDelegate.swift in Sources */,
 				0FE7202628CFAC7F003F31C0 /* ViewPostViewController.swift in Sources */,

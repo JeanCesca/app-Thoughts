@@ -26,7 +26,7 @@ class PayWallViewController: UIViewController {
         button.setTitleColor(.white, for: .normal)
         button.layer.masksToBounds = true
         button.layer.cornerRadius = 8
-        button.addTarget(button.self, action: #selector(didTapSubscribe), for: .touchUpInside)
+        button.addTarget(self, action: #selector(didTapSubscribe), for: .touchUpInside)
         return button
     }()
     
@@ -37,7 +37,7 @@ class PayWallViewController: UIViewController {
         button.setTitleColor(.link, for: .normal)
         button.layer.masksToBounds = true
         button.layer.cornerRadius = 8
-        button.addTarget(button.self, action: #selector(didTapRestore), for: .touchUpInside)
+        button.addTarget(self, action: #selector(didTapRestore), for: .touchUpInside)
         return button
     }()
     
